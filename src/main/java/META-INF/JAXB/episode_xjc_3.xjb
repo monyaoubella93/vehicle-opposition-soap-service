@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par Eclipse Implementation of JAXB, v3.0.0 
+Voir https://eclipse-ee4j.github.io/jaxb-ri 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2026.11.10 à 12:18:26 PM WET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://local.verifopposition">
+    <schemaBindings map="false">
+      <package name="local.verifopposition.wsdl"/>
+    </schemaBindings>
+    <bindings scd="tns:VerifOppositionRequest">
+      <class ref="local.verifopposition.wsdl.VerifOppositionRequest"/>
+    </bindings>
+    <bindings scd="tns:VerifOppositionResponse">
+      <class ref="local.verifopposition.wsdl.VerifOppositionResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+
